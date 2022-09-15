@@ -12,8 +12,20 @@ It is a type of software architecture in which the software product is composed 
 
 ## What is Containerisation?
 
+It is the process of allocating an entire software component, including its environment, dependencies and configuration, into an isolated unit- AKA a container. Containers, that package the components of an application, all use the same operating system.
+
 ### What are the Benefits?
+
+- Portability- a container bundles all the dependencies, so an application can be taken and deployed anywhere
+- Faster delivery- containerisation compartmentalises your application, so it is easier to upgrade
+- Improved security- due to the containers being isolated, if the security of one container is compromised, the other containers remain secure
 
 ## Project brief
 
-### Tools used
+The goal of the project is to gain an understanding of containerisation with Docker and implement that understanding by deploying an application using containers. A microservices architecture will be utilised with each service in its own container. 
+
+### Main Docker concepts 
+
+- Docker commands
+- Dockerfile
+- Docker compose YAML files
