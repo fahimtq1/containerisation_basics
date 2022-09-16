@@ -27,6 +27,6 @@ template:
   spec:
     containers:
     - name: nginx
-      image: ahskhan/fahimtq1/fahim-profile:latest
+      image: fahimtq1/fahim-profile:latest
       ports: 
       - containerPort: 80
