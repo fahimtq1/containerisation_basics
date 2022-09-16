@@ -14,19 +14,19 @@ spec:
     matchLabels:
       app: nginx   # look for this label to match with k8 service
 
-# create a replica set of this with 2 instances/pods
-replicas: 3
+  # create a replica set of this with 2 instances/pods
+  replicas: 3
 
-# template to use it's label for k8 service to launch in the browser
-template: 
-  metadata:
-    labels:
-      app: nginx   # this label connects to the service or any other k8 components
+  # template to use it's label for k8 service to launch in the browser
+  template: 
+    metadata:
+      labels:
+        app: nginx   # this label connects to the service or any other k8 components
 
-# define the container spec
-  spec:
-    containers:
-    - name: nginx
-      image: fahimtq1/fahim-profile:latest
-      ports: 
-      - containerPort: 80
+  # define the container spec
+    spec:
+      containers:
+      - name: nginx
+        image: fahimtq1/fahim-profile:latest
+        ports: 
+        - containerPort: 80
