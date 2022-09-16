@@ -12,6 +12,8 @@ It is a type of software architecture in which the software product is composed 
 
 ## What is Containerisation?
 
+![containers](https://user-images.githubusercontent.com/99980305/189632858-aaed23fc-d8f3-461b-bd33-b5900fa2aadb.png)
+
 It is the process of allocating an entire software component, including its environment, dependencies and configuration, into an isolated unit- AKA a container. Containers, that package the components of an application, all use the same operating system.
 
 ### What are the Benefits?
