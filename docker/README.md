@@ -8,7 +8,7 @@ It is linked to a global repository known as Docker Hub. Docker images can be st
 
 ## What is a Dockerfile?
 
-It is a text document that contains all the commands a user 
+It is a text document that contains all the commands, that a user can typically input into the command line, to build an image. To build the image detailed in a Dockerfile, the path of the Dockerfile has to be specified. 
 
 ## What is docker-compose.yml?
 

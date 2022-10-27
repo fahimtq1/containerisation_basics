@@ -15,7 +15,7 @@ spec:
       app: nginx   # look for this label to match with k8 service
 
   # create a replica set of this with 2 instances/pods
-  replicas: 3
+  replicas: 1   # k8 will ensure that this number of replicas is consistently running 
 
   # template to use it's label for k8 service to launch in the browser
   template: 
