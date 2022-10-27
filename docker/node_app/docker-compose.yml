@@ -11,7 +11,7 @@ services:
     restart: always
     ports:
       - "3000:3000"
-    environment:
-      - DB_HOST=mongodb://db:27017/posts
-    depends_on:
+    environment:   # specifies an evironment variable in the app container
+      - DB_HOST=mongodb://db:27017/posts   
+    depends_on:   # expresses dependency of app service on db service- db service will start fast
       - db
